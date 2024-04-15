@@ -6,7 +6,7 @@ class CircularDeque(ArrayQueue):
         super().__init__(capacity)
 
     def addRear(self, item):
-        self.enqueue(item)
+        return self.enqueue(item)
 
     def deleteFront(self):
         return self.dequeue()

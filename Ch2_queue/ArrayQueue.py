@@ -26,7 +26,7 @@ class ArrayQueue:
             print("Queue is empty")
 
     def peek(self):
-        if not self.isEmpyt():
+        if not self.isEmpty():
             return self.array[(self.front + 1) % self.capacity]
         else:
             print("Queue is empty")
